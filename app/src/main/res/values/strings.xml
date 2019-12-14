@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TransBusVer2</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Perjalalananku</string>
+    <string name="title_notifications">Akun</string>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+</resources>
+
+
