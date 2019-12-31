@@ -1,6 +1,7 @@
 package com.mohammadfajar.stiki.transbusver2;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -11,7 +12,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
-
+    DatabaseHelper db;
+    Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
